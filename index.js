@@ -6,6 +6,7 @@ var server = require('http').createServer(app);
 app.set('port', (process.env.PORT || 5000));
 
 app.use(express.static(__dirname + '/public/textbook'));
+app.use(express.static(__dirname + '/public/stupid'));
 app.use(express.static(__dirname + '/public/textbook/Books/simple_demo/html/'));
 
 app.get('/', function(req, res) {
