@@ -1,0 +1,3 @@
+[submodule "public/textbook"]
+	path = public/textbook
+	url = https://github.com/quaiquai/OpenDSATest
